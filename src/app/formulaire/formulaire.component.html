@@ -1,0 +1,32 @@
+<h1>formulaire</h1>
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>nom</mat-label>
+    <input matInput type="nom" placeholder="nom" />
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>cin</mat-label>
+    <input matInput nom="cin" placeholder="cin" />
+  </mat-form-field>
+  <!--  <mat-form-field class="example-margin">
+    <mat-label>Value</mat-label>
+    <input matInput type="number" [(ngModel)]="value" />
+  </mat-form-field>
+  
+    <h2 class="example-h2">Slider configuration</h2>
+    <mat-slider
+      class="example-margin"
+      [disabled]="disabled"
+      [max]="max"
+      [min]="min"
+      [(ngModel)]="value"
+      [vertical]="vertical"
+    >
+    </mat-slider> -->
+
+  <mat-slider min="1" max="100" step="1" value="1"></mat-slider>
+
+  <button mat-raised-button color="accent" (click)="sayValide()">
+    valider
+  </button>
+</form>

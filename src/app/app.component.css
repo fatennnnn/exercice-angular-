@@ -1,0 +1,6 @@
+a {
+  display: flex;
+  /* Cette valeur peut être changée dans l'exemple */
+  justify-content: space-between;
+  margin-top: 150px;
+}
